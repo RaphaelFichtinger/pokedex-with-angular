@@ -1,0 +1,30 @@
+
+
+<section>
+
+    <div *ngFor="let pokemon of pokeservice.PokemonArray; let i = index" class="pokemon-card" (click)="openCardDetails(i)">    
+        <div>
+            {{ pokemon.name }} <br><br> {{ pokemon.abilities }}
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>

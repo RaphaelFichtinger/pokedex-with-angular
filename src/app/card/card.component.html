@@ -1,0 +1,13 @@
+
+
+
+
+<div>
+    <h2>Name: {{ pokemon.name }}</h2>
+    <div>
+      <h3>Abilities:</h3>
+      <ul>
+        <li *ngFor="let ability of pokemon.abilities">{{ ability }}</li>
+      </ul>
+    </div>
+</div>
